@@ -1,13 +1,12 @@
-console.log('Trabalhando com variaveis');
-// JS e case sensitive
+console.log('Trabalhando com atribuição variaveis');
 
 const idade = 29;
 const nome = 'Tássio';
+const sobrenome = 'Sales'
 
+console.log(nome + ' ' + sobrenome)
+console.log(`Meu nome e ${nome} ${sobrenome}`)
 
-console.log(idade);
-console.log(nome);
-console.log(ano);
+nomeCompleto = `${nome} ${sobrenome}`
 
-// Não fazer
-//mes = "Janeiro"
+console.log(nomeCompleto)
